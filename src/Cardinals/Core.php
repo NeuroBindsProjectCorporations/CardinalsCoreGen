@@ -4,6 +4,10 @@ namespace Cardinals;
 
 class Core{
 
+ const NETWORK_TRANSFER = 12;//Packet
+ const PACKET_FAIL = 6;
+ const TRANSFER_FAIL = NETWORK_TRANSFER < PACKET_FAIL;
+
  function Core(){
    self::init();
    self::instance();
