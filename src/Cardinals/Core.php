@@ -7,6 +7,7 @@ class Core{
  const NETWORK_TRANSFER = 12;//Packet
  const PACKET_FAIL = 6;
  const TRANSFER_FAIL = NETWORK_TRANSFER < PACKET_FAIL;
+ const REFRESH = "REFRESH";
 
  function Core(){
    self::init();
